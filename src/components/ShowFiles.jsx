@@ -16,12 +16,12 @@ const ShowFiles = () => {
   };
 
   return (
-    <div>
+    <div className="ps-5 pt-3">
       <h2>File List</h2>
       <Link to="/add-file" className="btn btn-primary mb-2">
         Add File
       </Link>
-      <table className="table" style={{width:"50vw"}}>
+      <table className="table" style={{ width: "50vw" }}>
         <thead>
           <tr>
             <th>Name</th>
