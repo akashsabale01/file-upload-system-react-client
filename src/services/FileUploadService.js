@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 // const API_URL = 'https://localhost:7254/api/Files';
-const API_URL = import.meta.env.VITE_API_BASIC_URL_DEPLOYED;
+const API_URL = import.meta.env.VITE_API_BASIC_URL_DEPLOYED + '/api/Files';
 
 const getAllFiles = () => axios.get(API_URL);
 
