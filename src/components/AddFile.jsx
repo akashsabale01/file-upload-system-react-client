@@ -28,7 +28,7 @@ const AddFile = () => {
 
   return (
     <div className="ps-5 pt-3" style={{ width: "50vw" }}>
-      <h2>Add Product</h2>
+      <h2>Add File</h2>
       <form onSubmit={onSubmit}>
         <div className="form-group">
           <label>FileName</label>
